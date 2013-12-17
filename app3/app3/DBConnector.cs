@@ -17,7 +17,7 @@ namespace app3
 
         public DBConnector()
         {
-            chConn = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:/cours.mdb";
+            chConn = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cours.mdb";
             maConn = new OleDbConnection(chConn);
         }
 
